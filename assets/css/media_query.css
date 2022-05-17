@@ -1,300 +1,155 @@
 @media screen and (max-width: 1600px){
-.hero_social{
-    display: none !important;
-}
+
 }
 
 
 /* Laptopn screen  */
 @media only screen and (max-width: 1366px) and (min-width: 992px){
 
-    .heading_1{
-    font-size: 30px !important;
-    }
-    .heading_2{
-    font-size: 18px !important;
-    }
-    .heading_3{
-    font-size: 14px !important;
-    }
-    .heading_4{
-    font-size: 18px !important;    
-    }
-    h5.custom_heading{
-        font-size: 20px !important;
-
+    .find_store a{
+        font-size: 22px;
     }
 
-    p{
-        font-size: 14px !important;
-    }
-
-    a{
-        font-size: 14px !important;
-    }
-
-     /* hero section  */
-    #hero .slider_content h1{
-        font-size: 60px;
-        max-width: 850px;
-        line-height: 100px;
+    .gap_94{
+        height: 74px;
+       }
     
-    }
+        .gap_64{
+          height: 44px;
+        }
+    
+        .gap_40{
+          height: 30px;
+        }
+    
+        .gap_24{
+          height: 15px;
+        }
 
+        .bg_heading h1{
+            font-size: 60px;
+        }
 
-    /* ABout section  */
-    .about_topics{
-        height: 320px !important;
-        overflow: hidden;
-    }
-    .about_overlay{
-        display: none;
-    }
-    #about .about_topics h3{
-        font-size: 30px;
-        line-height: 50px;
-    }
-
-    /* Product page */
-    .product_page .products_img {
-        min-height: 400px !important;
-    }
-
-    .video_imbedor{
-        height: 400px !important;
-    }
-
-    .loading{
-        font-size: 40px;
-    }
-
+        .bg_heading h3{
+         font-size: 28px;
+        }
+        
 
 }
+
 
 
 @media screen and (max-width:992px){
-
-    
-
-    .gap{
-        height: 30px;
+    .bg_heading h1{
+        font-size: 50px;
     }
-    .loading{
-        font-size: 30px;
-    }
-    .heading_1{
-        font-size: 24px !important;
-        }
-        .heading_2{
-        font-size: 20px !important;
-        }
-        .heading_3{
-        font-size: 12px !important;
-        }
-        .heading_4{
-        font-size: 16px !important;    
-        }
-        h5.custom_heading{
-            font-size: 16px !important;
-        
-        }
-        p{
-            font-size: 14px !important;
-        }
-        a{
-            font-size: 12px !important;
-        }
-
-
-            /* hero section */
-
-        #hero .slider_content h1{
-            font-size: 40px;
-            max-width: 650px;
-            line-height: 60px;
-        
-        }
-
-        #hero .slide_btn{
-            top: 80%;
-        }
-
-
-        /* ABout section  */
-        .about_topics{
-            height: 280px !important;
-            overflow: hidden;
-        }
-        .about_overlay{
-            display: none;
-        }
-        #about .about_topics h3{
-            font-size: 18px;
-            line-height: 30px;
-        }
-
-        /* Product page */
-        .product_page .products_img {
-            min-height: 362px !important;
-        }
-
-
-        .video_imbedor{
-            height: 350px !important;
-        }
-
-        
-      .footer_left{
-        margin: auto;
+    .bg_heading{
         text-align: center;
-        margin-bottom: 40px;
+        padding: 0px 0px;
     }
-    .products_img {
-        min-height: 330px !important;
-    }
-    
-
-}
-
-
-
-@media screen and (max-width:768px){
-
-    .loading{
+    .bg_heading h3{
         font-size: 20px;
     }
-    /* hero section  */
-    #hero .slider_content{
-        min-height: 70vh;
-    }
-     
-    #hero .slider_content h1{
-        font-size: 30px;
-        line-height: 50px;
+    .bg_heading h3{
+        margin: 12px 10px;
     }
 
-    #hero  .slick-dots{
-        display: none !important;
+    .offer_card{
+        margin-bottom: 25px;
     }
-
-    #hero .slide_btn{
-        top: 60%;
+    .offer_card .offered_text{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
     }
-
-
-    /* Product section  */
-    .products_house {
-        height: auto;
-        overflow: unset;
+    .heading_section h2{
+        font-weight: 700;
+        font-size: 21.755px;
+        line-height: 33px;
     }
-
-    #alkaline_info .info_left{
-        display: block;
+    .heading_section svg {
+        margin-right: 0px;
+        height: 45px;
     }
-    #alkaline_info .info_left .info_passage{
-        margin: auto;
-        padding-left: 0px;
-        padding-right: 0px;
+    .items {
+        height: 100px;
     }
-    .alkalaine_bg{
-        min-height: 400px;
+    .gap_64{
+        height: 30px;
     }
-
-    /* ABout section  */
-    .about_topics{
+    .specific_item a{
+        font-size: 12px;
+    }
+    .specific_item {
         margin-bottom: 20px;
     }
-
-    #alkaline_info2 .info_left {
-        display: inline-grid;
-        margin: auto;
-    }
-    #alkaline_info2 .info_left .info_passage{
-        max-width: unset;
-    }
-    #alkaline_info2 .info_left .info_list{
-        max-width: unset;
-        padding: 0px 20px;
+    .add_right{
+        margin-top: 24px;
     }
 
-    #alkaline_info2 .info_img {
-        text-align: center;
+    .find_store a{
+        font-size: 16px;
     }
-    #alkaline_info2 .nctb{
-        text-align: center;
+    .find_store{
+        height: 95px;
     }
-
-
-    /* Contact page  */
-
-    #our_brands .slick-slide img {
-        margin: auto;
-        height: 31px;
-    }
-
-    .client_slider img{
-        height: 60px;
-    }
-
-
-    .contact_el{
-        padding: 30px;
-      }
-
-      #footer .mini_footer_part{
-          margin-bottom: 20px;
+    .filter_btn, .cat_btn{
+        font-size: 14px;
+        margin-bottom: 10px !important;
         
-      }
+    }
+    .bg_content{
+        padding: 0px;
+    }
 
-      .secondary_heading h1{
-          font-size: 30px;
-      }
-      .privacy_el h2{
-          font-size: 22px;
-          line-height: 40px;
-      }
-      .secondary_heading{
-          margin-top: 70px;
-      }
-
-      #contact_form label{
-          font-size: 16px;
-      }
-      #contact_form input{
-          padding: 10px 25px;
-          margin-bottom: 15px;
-      }
-
-      .change_nav{
-        background-color: white !important;
-      }
-
-      .right_nav{
-        margin-left: 27px;
-        margin-bottom: 15px;
-      }
+    .banner_slider .slick-dots{
+        top: 103%;
+    }
 
 
-      #products .col-12{
-          margin-bottom: 15px !important;
-      }
-      .products_img{
-          min-height: 330px !important;
-      }
-      #alkaline_info h1{
-          line-height: 40px;
-      }
+ 
 }
 
-
-
-
-@media screen and (max-width:556px){
-    .m2.mini_footer_part{
-        text-align: right;
+@media screen and (max-width:768px){
+    .bg_heading h1{
+        font-size: 46px;
     }
 
-    .m3.mini_footer_part{
+    .gap_94{
+        height: 47px;
+       }
+    
+        .gap_64{
+          height: 32px;
+        }
+    
+        .gap_40{
+          height: 20px;
+        }
+    
+        .gap_24{
+          height: 12px;
+        }
+    .specific_item a{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .filter_btn, .cat_btn{
+        margin: 0px !important;
+        margin-bottom: 10px !important;
+        
+    }
+
+    /* #all_cat_name{
+        width: 100%;
+        overflow: scroll;
+        margin: auto;
+        scroll-snap-align: start;
+    }
+    .cat_btn_group {
         text-align: center;
-    }
+        width: 700px;
+        margin-left: -50%;
+    } */
 }

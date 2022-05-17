@@ -30,3 +30,33 @@ $(window).on('load', function () {
             $(".navbar").addClass("change_nav");
         }
     }
+
+
+    $(".static_btn").click(function(){
+        $(this).css({"display":"none"});
+        $(this).parent().parent().parent().find(".counter_btn").css({"display":"flex"});
+        $(this).parent().parent().parent().find("input").val(1);
+
+
+        
+    });
+
+    // counter btn on 
+    $(".add_btn").click(function(){
+        $current_val = parseInt($(this).parent().parent().parent().find("input").val());
+       
+        $update_val = $current_val + 1;
+        $(this).parent().parent().parent().find("input").val($update_val);
+    });
+
+    $(".remove_btn").click(function(){
+        $current_val = parseInt($(this).parent().parent().parent().find("input").val());
+       
+        $update_val = $current_val - 1;
+        $(this).parent().parent().parent().find("input").val($update_val);
+
+        if($update_val < 1){
+            $(this).parent().parent().parent().find(".counter_btn").css({"display":"none"});
+            $(this).parent().parent().parent().find(".static_btn").css({"display":"block"});
+        }
+    });
