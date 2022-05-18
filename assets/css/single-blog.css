@@ -78,6 +78,11 @@
     font-size: 16px;
     line-height: 24px;
     color: #5c5d78;
+    text-decoration: none;
+}
+.popular-blog-title:hover{
+    color: #5c5d78;
+    text-decoration: none;
 }
 .popular-blog-image {
     border-radius: 10px;
@@ -393,6 +398,10 @@
     }
 }
 @media screen and (max-width: 479px) {
+    .section-gap {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
     .header {
         height: 400px;
         background-size: cover;
