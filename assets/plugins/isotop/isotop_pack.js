@@ -489,7 +489,8 @@ function(t, e) {
         })
     }, d.onHideTransitionEnd = function() {
         this.isHidden && (this.css({
-            display: "none"
+            display: "none",
+         
         }), this.emitEvent("hide"))
     }, d.destroy = function() {
         this.css({
